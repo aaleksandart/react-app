@@ -1,0 +1,63 @@
+/* CSS FÖR CUSTOMER.JS OCH CUSTOMERLIST.JS */
+
+.customer_table {
+    overflow: hidden;
+    table-layout:fixed;
+    width: 1400px;
+    max-width: 90%;
+}
+@media (max-width: 1200px) {
+    .customer_table {
+        max-width: 97%;
+    }
+}
+
+#customerListHeader {
+    height: 100px;
+}
+
+#customerTableHeader {
+    background-color: #FFE5D2;
+}
+
+td {
+    color: rgb(54, 54, 54);
+}
+
+@media (max-width: 767px) {
+    .member_email{
+        display: none;
+    }
+    .email_customer {
+        display: none;
+    }
+}
+
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

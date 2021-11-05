@@ -1,0 +1,23 @@
+/* CSS FÖR REGISTERCUSTOMER.JS, USEFORM.JS HOOK OCH VALIDATEFORM.JS */
+
+#header_create_account {
+    height: 70px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    max-width: 100%;
+}
+
+#header_create_account {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    background-color: #FFE5D2;
+}
+
+#registerButton {
+    background-color: #dbd7d2;
+}
