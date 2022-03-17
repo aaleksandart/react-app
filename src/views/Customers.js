@@ -4,7 +4,7 @@ import CustomerList from '../components/customers/CustomerList';
 const Customers = () => {
     return (
         <div>
-            {/* <CustomerList /> */}
+            {/* <CustomerList /> */} // Inget aktivt API
         </div>
     )
 }
